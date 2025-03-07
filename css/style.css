@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(44, 44, 44);
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+header{
+    position: relative; /* Necesario para mantener el diseño encima del canvas */
+    z-index: 1; /* Asegúrate de que el contenido esté por encima del canvas */
+    gap: 3em;
+    display: flex;
+    float: right;
+    margin-right: 8vh;
+    margin-top: 8vh;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+#canvas-container {
+    position: fixed; /* Fijo al fondo de la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ancho completo */
+    height: 100vh; /* Altura completa */
+    z-index: -1; /* Detrás del contenido */
+}
+#mycanvas {
+    background-color: rgb(41, 40, 40);
+}
+
+
+
